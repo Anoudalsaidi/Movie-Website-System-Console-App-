@@ -38,7 +38,7 @@ namespace MovieWebsiteSystem
             Name = name;
             Age = age;
 
-            // Welcome Message
+            // Welcome Message for user
             Console.WriteLine($"Welcome {Name}!");
         }
     }
