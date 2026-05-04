@@ -18,7 +18,7 @@ namespace MovieWebsiteSystem
             Genre = genre;
             Year = year;
 
-            // Validation (Bonus)
+            // Validation
             if (rating < 1 || rating > 10)
                 Rating = 5;
             else
@@ -74,10 +74,10 @@ namespace MovieWebsiteSystem
             List<Movie> movies = new List<Movie> { m1, m2, m3 };
 
             // Create User
-            User u1 = new User("Ali", 25);
+            User u1 = new User("Anoud", 25);
 
             // Create Review
-            Review r1 = new Review("Ali", "Inception", "Great movie!", 10);
+            Review r1 = new Review("Anoud", "Inception", "Great movie!", 9);
 
             List<Review> reviews = new List<Review> { r1 };
 
