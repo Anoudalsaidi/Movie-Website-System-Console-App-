@@ -88,7 +88,7 @@ namespace MovieWebsiteSystem
                 Console.WriteLine($"{movie.Title} - {movie.Rating}");
             }
 
-            // ===================== Display Reviews =====================
+            // ===================== Display Review =====================
             Console.WriteLine("\nReviews:");
             foreach (var review in reviews)
             {
