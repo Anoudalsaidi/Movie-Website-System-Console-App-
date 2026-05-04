@@ -74,7 +74,7 @@ namespace MovieWebsiteSystem
             List<Movie> movies = new List<Movie> { m1, m2, m3 };
 
             // Create User
-            User u1 = new User("Anoud", 25);
+            User u1 = new User("Anoud", 26);
 
             // Create Review
             Review r1 = new Review("Anoud", "Inception", "Great movie!", 9);
