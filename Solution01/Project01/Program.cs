@@ -61,7 +61,7 @@ namespace MovieWebsiteSystem
         }
     }
 
-    // ===================== Main Program =====================
+    // ===================== console Program =====================
     class Program
     {
         static void Main(string[] args)
