@@ -18,7 +18,7 @@ namespace MovieWebsiteSystem
             Genre = genre;
             Year = year;
 
-            // Validation
+            // Rating Validation
             if (rating < 1 || rating > 10)
                 Rating = 5;
             else
